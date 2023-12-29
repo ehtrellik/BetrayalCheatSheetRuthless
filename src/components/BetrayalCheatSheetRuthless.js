@@ -210,20 +210,20 @@ class BetrayalTable extends React.Component {
                     <BetrayalTableCell img={'assets/encounters/aisling/1transport.png'} alt={'Transport'} description={"Chest containing a boot"} id={'t11'} colourID={this.state.selected[TABLE_COL_SIZE + 1]}/>
                     <BetrayalTableCell img={'assets/encounters/cameria/1transport.png'} alt={'Transport'} description={"Chest containing a ring"} id={'t12'} colourID={this.state.selected[TABLE_COL_SIZE + 2]}/>
                     <BetrayalTableCell img={'assets/encounters/elreon/1transport.png'} alt={'Transport'} description={"Chest containing a shield"} id={'t13'} colourID={this.state.selected[TABLE_COL_SIZE + 3]}/>
-                    <BetrayalTableCell img={'assets/encounters/gravicius/1transport.png'} alt={'Transport'} description={"Stacks of Div Cards"} id={'t14'} colourID={this.state.selected[TABLE_COL_SIZE + 4]}/>
-                    <BetrayalTableCell img={'assets/encounters/guff/1transport.png'} alt={'Transport'} description={"Timed Craft"} id={'t15'} colourID={this.state.selected[TABLE_COL_SIZE + 5]}/>
-                    <BetrayalTableCell img={'assets/encounters/haku/1transport.png'} alt={'Transport'} description={"Rare Items"} id={'t16'} colourID={this.state.selected[TABLE_COL_SIZE + 6]}/>
-                    <BetrayalTableCell img={'assets/encounters/hillock/1transport.png'} alt={'Transport'} description={"24/26/28/30 Quality to Weapon"} id={'t17'} colourID={this.state.selected[TABLE_COL_SIZE + 7]}/>
-                    <BetrayalTableCell img={'assets/encounters/it_that_fled/1transport.png'} alt={'Transport'} description={"Breach Splinters"} id={'t18'} colourID={this.state.selected[TABLE_COL_SIZE + 8]}/>
-                    <BetrayalTableCell img={'assets/encounters/janus/1transport.png'} alt={'Transport'} description={"Quality Currency"} id={'t19'} colourID={this.state.selected[TABLE_COL_SIZE + 9]}/>
-                    <BetrayalTableCell img={'assets/encounters/jorgin/1transport.png'} alt={'Transport'} description={"1/2/3\nTalismans"} id={'t110'} colourID={this.state.selected[TABLE_COL_SIZE + 10]}/>
-                    <BetrayalTableCell img={'assets/encounters/korell/1transport.png'} alt={'Transport'} description={"Essences"} id={'t111'} colourID={this.state.selected[TABLE_COL_SIZE + 11]}/>
-                    <BetrayalTableCell img={'assets/encounters/leo/1transport.png'} alt={'Transport'} description={"Catalysts"} id={'t112'} colourID={this.state.selected[TABLE_COL_SIZE + 12]}/>
-                    <BetrayalTableCell img={'assets/encounters/riker/1transport.png'} alt={'Transport'} description={"Take One Currency (Timed)"} id={'t113'} colourID={this.state.selected[TABLE_COL_SIZE + 13]}/>
-                    <BetrayalTableCell img={'assets/encounters/rin/1transport.png'} alt={'Transport'} description={"Normal Maps"} id={'t114'} colourID={this.state.selected[TABLE_COL_SIZE + 14]}/>
-                    <BetrayalTableCell img={'assets/encounters/tora/1transport.png'} alt={'Transport'} description={"Take One Item (Timed)"} id={'t115'} colourID={this.state.selected[TABLE_COL_SIZE + 15]}/>
-                    <BetrayalTableCell img={'assets/encounters/vagan/1transport.png'} alt={'Transport'} description={"Legion Splinters"} id={'t116'} colourID={this.state.selected[TABLE_COL_SIZE + 16]}/>
-                    <BetrayalTableCell img={'assets/encounters/vorici/1transport.png'} alt={'Transport'} description={"Random Quality Gems"} id={'t117'} colourID={this.state.selected[TABLE_COL_SIZE + 17]}/>
+                    <BetrayalTableCell img={'assets/encounters/gravicius/1transport.png'} alt={'Transport'} description={"Chest containing a body armour"} id={'t14'} colourID={this.state.selected[TABLE_COL_SIZE + 4]}/>
+                    <BetrayalTableCell img={'assets/encounters/guff/1transport.png'} alt={'Transport'} description={"Chest containing a glove"} id={'t15'} colourID={this.state.selected[TABLE_COL_SIZE + 5]}/>
+                    <BetrayalTableCell img={'assets/encounters/haku/1transport.png'} alt={'Transport'} description={"Chest containing a Rare Items"} id={'t16'} colourID={this.state.selected[TABLE_COL_SIZE + 6]}/>
+                    <BetrayalTableCell img={'assets/encounters/hillock/1transport.png'} alt={'Transport'} description={"Chest containing a belt"} id={'t17'} colourID={this.state.selected[TABLE_COL_SIZE + 7]}/>
+                    <BetrayalTableCell img={'assets/encounters/it_that_fled/1transport.png'} alt={'Transport'} description={"Chest containing a jewel"} id={'t18'} colourID={this.state.selected[TABLE_COL_SIZE + 8]}/>
+                    <BetrayalTableCell img={'assets/encounters/janus/1transport.png'} alt={'Transport'} description={"Chest containing a basic Currency"} id={'t19'} colourID={this.state.selected[TABLE_COL_SIZE + 9]}/>
+                    <BetrayalTableCell img={'assets/encounters/jorgin/1transport.png'} alt={'Transport'} description={"Chest containing an amulet"} id={'t110'} colourID={this.state.selected[TABLE_COL_SIZE + 10]}/>
+                    <BetrayalTableCell img={'assets/encounters/korell/1transport.png'} alt={'Transport'} description={"Chest containing a helmet"} id={'t111'} colourID={this.state.selected[TABLE_COL_SIZE + 11]}/>
+                    <BetrayalTableCell img={'assets/encounters/leo/1transport.png'} alt={'Transport'} description={"Chest containing a flask"} id={'t112'} colourID={this.state.selected[TABLE_COL_SIZE + 12]}/>
+                    <BetrayalTableCell img={'assets/encounters/riker/1transport.png'} alt={'Transport'} description={"Chest containing a quiver"} id={'t113'} colourID={this.state.selected[TABLE_COL_SIZE + 13]}/>
+                    <BetrayalTableCell img={'assets/encounters/rin/1transport.png'} alt={'Transport'} description={"Chest containing a Normal Maps"} id={'t114'} colourID={this.state.selected[TABLE_COL_SIZE + 14]}/>
+                    <BetrayalTableCell img={'assets/encounters/tora/1transport.png'} alt={'Transport'} description={"Chest containing a skill gem"} id={'t115'} colourID={this.state.selected[TABLE_COL_SIZE + 15]}/>
+                    <BetrayalTableCell img={'assets/encounters/vagan/1transport.png'} alt={'Transport'} description={"Chest containing a weapon"} id={'t116'} colourID={this.state.selected[TABLE_COL_SIZE + 16]}/>
+                    <BetrayalTableCell img={'assets/encounters/vorici/1transport.png'} alt={'Transport'} description={"10/15/20/30 Reforge socket color"} id={'t117'} colourID={this.state.selected[TABLE_COL_SIZE + 17]}/>
                 </tr>
                 <tr>
                     <BetrayalTableCell img={'assets/locations/2fortification.png'} alt={'Fortification'} description={""} id={'t20'} colourID={this.state.selected[TABLE_COL_SIZE*2]}/>
