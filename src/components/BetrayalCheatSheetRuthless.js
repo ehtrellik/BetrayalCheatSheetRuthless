@@ -227,23 +227,23 @@ class BetrayalTable extends React.Component {
                 </tr>
                 <tr>
                     <BetrayalTableCell img={'assets/locations/2fortification.png'} alt={'Fortification'} description={""} id={'t20'} colourID={this.state.selected[TABLE_COL_SIZE*2]}/>
-                    <BetrayalTableCell img={'assets/encounters/aisling/2fort.png'} alt={'Fortification'} description={"Double-Veiled Armour and Jewellery"} id={'t21'} colourID={this.state.selected[TABLE_COL_SIZE*2 + 1]}/>
-                    <BetrayalTableCell img={'assets/encounters/cameria/2fort.png'} alt={'Fortification'} description={"Harbinger Orbs"} id={'t22'} colourID={this.state.selected[TABLE_COL_SIZE*2 + 2]}/>
-                    <BetrayalTableCell img={'assets/encounters/elreon/2fort.png'} alt={'Fortification'} description={"1/2/3 Unique Armours"} id={'t23'} colourID={this.state.selected[TABLE_COL_SIZE*2 + 3]}/>
-                    <BetrayalTableCell img={'assets/encounters/gravicius/2fort.png'} alt={'Fortification'} description={"Random Div Cards"} id={'t24'} colourID={this.state.selected[TABLE_COL_SIZE*2 + 4]}/>
-                    <BetrayalTableCell img={'assets/encounters/guff/2fort.png'} alt={'Fortification'} description={"Timed Craft"} id={'t25'} colourID={this.state.selected[TABLE_COL_SIZE*2 + 5]}/>
-                    <BetrayalTableCell img={'assets/encounters/haku/2fort.png'} alt={'Fortification'} description={"Magic/Rare/Unique Strongbox"} id={'t26'} colourID={this.state.selected[TABLE_COL_SIZE*2 + 6]}/>
-                    <BetrayalTableCell img={'assets/encounters/hillock/2fort.png'} alt={'Fortification'} description={"24/26/28/30 Quality to Armour"} id={'t27'} colourID={this.state.selected[TABLE_COL_SIZE*2 + 7]}/>
-                    <BetrayalTableCell img={'assets/encounters/it_that_fled/2fort.png'} alt={'Fortification'} description={"Enchanted Maps (Breach)"} id={'t28'} colourID={this.state.selected[TABLE_COL_SIZE*2 + 8]}/>
-                    <BetrayalTableCell img={'assets/encounters/janus/2fort.png'} alt={'Fortification'} description={"Currency Shards"} id={'t29'} colourID={this.state.selected[TABLE_COL_SIZE*2 + 9]}/>
-                    <BetrayalTableCell img={'assets/encounters/jorgin/2fort.png'} alt={'Fortification'} description={"1/2/3 Aspect Mod Rares"} id={'t210'} colourID={this.state.selected[TABLE_COL_SIZE*2 + 10]}/>
-                    <BetrayalTableCell img={'assets/encounters/korell/2fort.png'} alt={'Fortification'} description={"Map Fragments"} id={'t211'} colourID={this.state.selected[TABLE_COL_SIZE*2 + 11]}/>
-                    <BetrayalTableCell img={'assets/encounters/leo/2fort.png'} alt={'Fortification'} description={"Random Currency"} id={'t212'} colourID={this.state.selected[TABLE_COL_SIZE*2 + 12]}/>
-                    <BetrayalTableCell img={'assets/encounters/riker/2fort.png'} alt={'Fortification'} description={"Take One Unique (Timed)"} id={'t213'} colourID={this.state.selected[TABLE_COL_SIZE*2 + 13]}/>
-                    <BetrayalTableCell img={'assets/encounters/rin/2fort.png'} alt={'Fortification'} description={"Rare Maps"} id={'t214'} colourID={this.state.selected[TABLE_COL_SIZE*2 + 14]}/>
-                    <BetrayalTableCell img={'assets/encounters/tora/2fort.png'} alt={'Fortification'} description={"Lab enchanted Gloves/Boots/Helmets"} id={'t215'} colourID={this.state.selected[TABLE_COL_SIZE*2 + 15]}/>
-                    <BetrayalTableCell img={'assets/encounters/vagan/2fort.png'} alt={'Fortification'} description={"Legion Chests"} id={'t216'} colourID={this.state.selected[TABLE_COL_SIZE*2 + 16]}/>
-                    <BetrayalTableCell img={'assets/encounters/vorici/2fort.png'} alt={'Fortification'} description={"Socket Currency"} id={'t217'} colourID={this.state.selected[TABLE_COL_SIZE*2 + 17]}/>
+                    <BetrayalTableCell img={'assets/encounters/aisling/2fort.png'} alt={'Fortification'} description={"Trapped chest containing boots"} id={'t21'} colourID={this.state.selected[TABLE_COL_SIZE*2 + 1]}/>
+                    <BetrayalTableCell img={'assets/encounters/cameria/2fort.png'} alt={'Fortification'} description={"Trapped chest containing rings"} id={'t22'} colourID={this.state.selected[TABLE_COL_SIZE*2 + 2]}/>
+                    <BetrayalTableCell img={'assets/encounters/elreon/2fort.png'} alt={'Fortification'} description={"Trapped chest containing shields"} id={'t23'} colourID={this.state.selected[TABLE_COL_SIZE*2 + 3]}/>
+                    <BetrayalTableCell img={'assets/encounters/gravicius/2fort.png'} alt={'Fortification'} description={"Trapped chest containing body armour"} id={'t24'} colourID={this.state.selected[TABLE_COL_SIZE*2 + 4]}/>
+                    <BetrayalTableCell img={'assets/encounters/guff/2fort.png'} alt={'Fortification'} description={"Trapped chest containing gloves"} id={'t25'} colourID={this.state.selected[TABLE_COL_SIZE*2 + 5]}/>
+                    <BetrayalTableCell img={'assets/encounters/haku/2fort.png'} alt={'Fortification'} description={"random item chest"} id={'t26'} colourID={this.state.selected[TABLE_COL_SIZE*2 + 6]}/>
+                    <BetrayalTableCell img={'assets/encounters/hillock/2fort.png'} alt={'Fortification'} description={"Trapped chest containing belts"} id={'t27'} colourID={this.state.selected[TABLE_COL_SIZE*2 + 7]}/>
+                    <BetrayalTableCell img={'assets/encounters/it_that_fled/2fort.png'} alt={'Fortification'} description={"Trapped chest containing jewels"} id={'t28'} colourID={this.state.selected[TABLE_COL_SIZE*2 + 8]}/>
+                    <BetrayalTableCell img={'assets/encounters/janus/2fort.png'} alt={'Fortification'} description={"Quality Currency"} id={'t29'} colourID={this.state.selected[TABLE_COL_SIZE*2 + 9]}/>
+                    <BetrayalTableCell img={'assets/encounters/jorgin/2fort.png'} alt={'Fortification'} description={"Trapped chest containing amulets"} id={'t210'} colourID={this.state.selected[TABLE_COL_SIZE*2 + 10]}/>
+                    <BetrayalTableCell img={'assets/encounters/korell/2fort.png'} alt={'Fortification'} description={"Trapped chest containing helmets"} id={'t211'} colourID={this.state.selected[TABLE_COL_SIZE*2 + 11]}/>
+                    <BetrayalTableCell img={'assets/encounters/leo/2fort.png'} alt={'Fortification'} description={"Trapped chest containing flask"} id={'t212'} colourID={this.state.selected[TABLE_COL_SIZE*2 + 12]}/>
+                    <BetrayalTableCell img={'assets/encounters/riker/2fort.png'} alt={'Fortification'} description={"Trapped chest containing quivers"} id={'t213'} colourID={this.state.selected[TABLE_COL_SIZE*2 + 13]}/>
+                    <BetrayalTableCell img={'assets/encounters/rin/2fort.png'} alt={'Fortification'} description={"Trapped chest containing Rare Maps"} id={'t214'} colourID={this.state.selected[TABLE_COL_SIZE*2 + 14]}/>
+                    <BetrayalTableCell img={'assets/encounters/tora/2fort.png'} alt={'Fortification'} description={"Trapped chest containing gems"} id={'t215'} colourID={this.state.selected[TABLE_COL_SIZE*2 + 15]}/>
+                    <BetrayalTableCell img={'assets/encounters/vagan/2fort.png'} alt={'Fortification'} description={"Trapped chest containing weapons"} id={'t216'} colourID={this.state.selected[TABLE_COL_SIZE*2 + 16]}/>
+                    <BetrayalTableCell img={'assets/encounters/vorici/2fort.png'} alt={'Fortification'} description={"10/15/20/30 Reforge socket amount"} id={'t217'} colourID={this.state.selected[TABLE_COL_SIZE*2 + 17]}/>
                 </tr>
                 <tr>
                     <BetrayalTableCell img={'assets/locations/3research.png'} alt={'Research'} description={""} id={'t30'} colourID={this.state.selected[TABLE_COL_SIZE*3]}/>
