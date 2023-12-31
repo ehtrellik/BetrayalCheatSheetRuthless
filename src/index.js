@@ -2,6 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css';
-import BetrayalCheatSheet from "./components/BetrayalCheatSheetRuthless";
+import BetrayalCheatSheetRuthless from "./components/BetrayalCheatSheetRuthless";
 
-ReactDOM.render(<BetrayalCheatSheet />, document.getElementById('root'));
+ReactDOM.render(<BetrayalCheatSheetRuthless />, document.getElementById('root'));
