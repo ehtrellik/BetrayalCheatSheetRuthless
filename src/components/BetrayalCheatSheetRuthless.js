@@ -7,7 +7,7 @@ import './BetrayalCheatSheet.css';
 const TABLE_ROW_SIZE = 5;
 const TABLE_COL_SIZE = 18;
 
-class BetrayalCheatSheet extends React.Component {
+class BetrayalCheatSheetRuthless extends React.Component {
     constructor() {
         super();
         this.state = {
@@ -40,7 +40,7 @@ class BetrayalCheatSheet extends React.Component {
         const share_id = zlib.gzipSync(Buffer.from(JSON.stringify(this.state.selected)));
         const textArea = document.createElement('textarea');
         textArea.style.background = 'transparent';
-        textArea.value = "https://poetools.github.io/BetrayalCheatSheet/#share=" + encodeURIComponent(share_id.toString('base64'));
+        textArea.value = "https://ehtrellik.github.io/BetrayalCheatSheetRuthless/#share=" + encodeURIComponent(share_id.toString('base64'));
         document.body.appendChild(textArea);
         textArea.select();
 
@@ -148,7 +148,7 @@ class BetrayalCheatSheet extends React.Component {
                 </section>
                 <section id='footer'>
                     <h2>
-                        Last updated for 3.20. Made by Multigrain and <a href="https://github.com/poetools/BetrayalCheatSheet/graphs/contributors">others</a>.
+                        Last updated for 3.23. forked from Multigrain and <a href="https://github.com/poetools/BetrayalCheatSheet/graphs/contributors">others</a>.
                     </h2>
                     <p class="source-code"><a href={'https://github.com/poetools/BetrayalCheatSheet'}>Source Code</a></p>
                 </section>
@@ -368,4 +368,4 @@ class BetrayalTableHeader extends React.Component {
     }
 }
 
-export default BetrayalCheatSheet;
+export default BetrayalCheatSheetRuthless;
